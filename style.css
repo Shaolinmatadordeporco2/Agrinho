@@ -1,6 +1,6 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
-    background-color: #f0f4f8;
+    background-color: #155003;
     color: #333;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ main {
     max-width: 800px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: rgb(229, 255, 0);
     border-radius: 10px;
 }
 
@@ -31,7 +31,7 @@ img {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #000000c0;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -46,6 +46,13 @@ button:hover {
     background-color: #007bff;
     transform: scale(1.25);
 }
+.explicação {
+    color: #007bff;
+    font-size: 20px;
+}
+.escrita {
+    color: rgb(0, 0, 0);
+}
 .passo {
     display: none;
     flex-direction: column;
@@ -57,7 +64,7 @@ button:hover {
 }
 
 .capitulo {
-    color: aqua;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     margin-bottom: 20px;
 }
